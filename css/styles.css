@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #e4f9f5;
+    color: grey;
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    color: #40514e;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #11999e;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #77d8d8;
+}
+
+hr  {
+    border-style: none;
+    width: 10%;
+    border-width: 5px;
+    border-top-style: dotted;
+    border-color: grey;
+    margin: 100px auto 100px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-container {
+    padding-top: 100px;
+    background-color: #a6dcef;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: #a6dcef;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+
+.skill-row {
+    margin: 100px auto;
+    padding: 20px;
+    line-height: 2em;
+}
+
+.python-content {
+    margin-top: 10px;
+    clear: left;
+    text-align: left;
+}
+
+.cooking-content {
+    margin-top: 10px;
+    clear: right;
+    text-align: left;
+}
+
+.python-img {
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.cooking-img {
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 10px
+}
+
+
+.btn {
+    display: block;
+    width: 150px;
+    margin: 30px auto 30px auto;
+    background-color: #7fdbda;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #24a19c;
+}
+
+.btn:hover {
+    background-color: #6ebfb5;
+}
+
+.footer-link {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    font-weight: bold;
+    color: #11999e;
+}
+
+.footer-link:hover {
+    color: black;
+}
